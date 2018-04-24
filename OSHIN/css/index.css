@@ -1,0 +1,129 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,li,input,dl,dd{margin:0;padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;}
+img,input{border: none;}
+input{outline: none;}
+header,nav,section,article,aside,time,footer{display: block;}
+html,body{height:100%;font-family: Arial;}
+.clear{clear: both;}
+header{background: url(../images/oshin-slide-1.jpg) no-repeat center top;height: 100%;background-size:cover;}
+header .logo{width:119px;height:50px;float: left;padding: 25px 0 0 2%;}
+header nav{position: absolute;top: 0;left: 50%;width:1008px;margin-left: -504px;}
+header nav li{float: left;height: 99px;line-height: 99px;text-transform: uppercase;}
+header nav li .act{color:#e0a240;}
+header nav li a{padding: 0 21px;color: #333;font-size: 12px;letter-spacing: 2px;}
+header nav li a:hover{color:#e0a240;}
+header .icon{float: right;padding: 38px 2% 0 0;}
+header .icon li{float: left;margin-right: 22px;font-size: 16px;}
+header .icon .first{display: none;}
+header .icon .last{margin-right: 0;}
+header .icon li a{color: #333;}
+header .mid{width:364px;height:313px;position: absolute;left:50%;top:50%;transform:translate(-50%,-50%);text-align: center;}
+header .mid .text1{line-height: 80px;height: 80px;font-size: 20px;color:#222;text-transform: uppercase;letter-spacing: 7px;transform:translateX(-650px) ;opacity: 0;animation: text1 1.5s ease-out;animation-fill-mode:forwards;}
+header .mid .text2{line-height: 102px;height:102px;font-size: 46px;font-weight: bold;text-transform: uppercase;border: 7px solid #000;letter-spacing: 10px;transform:translateX(600px);opacity: 0;animation: text2 1.5s ease-out ;animation-fill-mode:forwards;}
+header .mid .text3{font-family: "Bell MT",arial;font-size: 30px;line-height: 111px;height:111px;font-style: italic;color:#222;transform: translateY(300px);opacity: 0;animation: text3 1.5s ease-out;animation-fill-mode:forwards;}
+@keyframes text1 {0%{transform:translateX(-650px)}50%{transform:translateX(-350px) translateY(-200px);opacity: 0.3;}100%{transform:translateX(0);opacity: 1;}}
+@keyframes text2 {0%{transform: translateX(600px)}50%{transform: translateX(350px) translateY(300px) ;opacity: 0.3;}100%{transform: translateX(0);opacity: 1;}}
+@keyframes text3 {0%{transform: translateY(300px)}50%{ transform:translateY(150px)translateX(-350px) ;opacity: 0.7;}100%{transform:translateY(0);opacity: 1;}}
+#one{text-align: center;}
+#one h3{height:26px;line-height: 26px;padding-top: 99px;text-transform: uppercase;font-size: 24px;color: #222;}
+#one p{height:110px;line-height: 110px;font-size: 16px;color: #797c97;font-family: "Bell MT",arial;font-style: italic;}
+#one .rhombus{width:13px;height:13px;background: #e0a240;border: 1px solid #f6e4c8;display: inline-block;transform: rotate(45deg);position: relative;}
+#one .rhombus:before{content: '';width:20px;height:1px;background: #e8e8e8;position: absolute;top: -8px;left: 11px;transform: rotate(-45deg) translateX(19px);}
+#one .rhombus:after{content: '';width:20px;height:1px;background: #e8e8e8;position: absolute;top: 34px;right: 24px;transform: rotate(-45deg) translateX(-4px);}
+#one .long{line-height: 33px;padding-top: 37px;font-family: "Arial Narrow";font-style: normal;font-size: 20px;height:66px;width:750px;margin: 0 auto;}
+#one .pic{font-size: 0;padding-top: 99px;width:80%;margin: 0 auto;}
+#one .pic img{width:100%;height:100%;}
+#one li{width:25%;height:246px;background: #f2f5f8;float: left;}
+#one li .Dump{width:auto;padding-top:48px;margin: 0 auto;transition: all 1s; }
+#one li .Dump i{line-height: 87px;height: 87px;font-size: 48px;}
+#one li .Dump p{line-height: 27px;height: 27px;font-style: normal;font-family: Arial;font-size: 14px;color:#000;font-weight: bold;}
+#one li:hover .Dump{transform: translateY(-60px);}
+#one li:nth-child(2n) {background: #edf0f2;}
+#two{width:1200px;margin: 0 auto;padding: 89px 0;}
+#two ul{float: left;width:32%}
+#two ul li{width:100%;height:176px;padding: 21px 0;}
+#two ul li .left{float: left;height:152px;text-align: center;width:15%;}
+#two ul li .left i{height:51px;line-height: 51px;font-size: 36px;color:#e3ac55;}
+#two ul li .right{width:78%;float: left;}
+#two ul li .right h3{height: 51px;line-height: 51px;font-size: 16px;color: #232323;}
+#two ul li .right p{line-height: 26px;height: 26px;font-size: 14px;color:#727475;}
+#two .pic{width:29%;height:700px;float: left;padding: 0 3%;}
+#two .pic img{height:100%;width:100%;}
+#three{height:400px;background: url("../images/wanderlust01.jpg") no-repeat top / cover fixed;}
+#four{text-align: center;}
+#four h3{height:26px;line-height: 26px;padding-top: 99px;text-transform: uppercase;font-size: 24px;color: #222;}
+#four p{height:110px;line-height: 110px;font-size: 16px;color: #797c97;font-family: "Bell MT",arial;font-style: italic;}
+#four .rhombus{width:13px;height:13px;background: #e0a240;border: 1px solid #f6e4c8;display: inline-block;transform: rotate(45deg);position: relative;}
+#four .rhombus:before{content: '';width:20px;height:1px;background: #e8e8e8;position: absolute;top: -8px;left: 11px;transform: rotate(-45deg) translateX(19px);}
+#four .rhombus:after{content: '';width:20px;height:1px;background: #e8e8e8;position: absolute;top: 34px;right: 24px;transform: rotate(-45deg) translateX(-4px);}
+#four ul{padding-top: 83px;margin: 0 auto;}
+#four ul li{display:inline-block;}
+#four ul li .first{height:42px;border: 1px solid #e0a240;line-height: 42px;color:#e5a241;padding: 0 19px;}
+#four ul li a{display:block;height:42px;line-height: 42px;padding: 0 19px;border: 1px solid transparent;color: #222;}
+#four ul li a:hover{color:#e5a241;border: 1px solid #e0a240;}
+#four .all{width:96%;margin: 0 auto;padding-top: 50px;}
+#four .all .pic{height:300px;width:31%;float: left;font-size: 0;position: relative;overflow: hidden;margin:0 1% 3%;}
+#four .all .pic img{height:100%;width:100%;transition: all 0.5s;}
+#four .all .pic a{height:100%;width:100%;background-color: rgba(0,0,0,0.8);position: absolute;top:0;left:-100%;}
+#four .all .pic:hover a{left: 0;}
+#four .all .pic:hover img{transform: scale(1.3);}
+#four .all_work a{width:158px;height:44px;display: inline-block;border: 2px solid #000;line-height: 44px;color: #1c1c1c;margin-top: 2%;}
+#four .all_work a:hover{background: #f0b452;border:2px solid #f0b452;color: #fff;transition: all 0.8s }
+#five{background: #f2f3f8;margin-top:90px;text-align: center;padding-bottom:82px }
+#five i{color: #dfdfdf;font-size: 70px;height:112px;line-height: 128px;padding-top: 74px;}
+#five p{font-size: 21px;font-family: "Arial Narrow";line-height: 40px;}
+#five p span{color:#e6a240;}
+#five .ENVATO{font-size: 12px;color: #000;height: 49px;line-height: 49px;}
+#five .ENVATO a{color: #000;}
+#six{text-align: center;}
+#six h3{height:26px;line-height: 26px;padding-top: 99px;text-transform: uppercase;font-size: 24px;color: #222;}
+#six p{height:110px;line-height: 110px;font-size: 16px;color: #797c97;font-family: "Bell MT",arial;font-style: italic;}
+#six .rhombus{width:13px;height:13px;background: #e0a240;border: 1px solid #f6e4c8;display: inline-block;transform: rotate(45deg);position: relative;}
+#six .rhombus:before{content: '';width:20px;height:1px;background: #e8e8e8;position: absolute;top: -8px;left: 11px;transform: rotate(-45deg) translateX(19px);}
+#six .rhombus:after{content: '';width:20px;height:1px;background: #e8e8e8;position: absolute;top: 34px;right: 24px;transform: rotate(-45deg) translateX(-4px);}
+#six ul{padding:49px 0 90px 0;}
+#six li{width:18%;height:200px;padding:  0 1% 2%;float: left;}
+#six li img{width:100%;height:100%;}
+#seven{background: url(../images/bg_06.jpg);text-align: center;padding-bottom: 90px; }
+#seven h3{font-size: 24px;height: 58px;line-height: 58px;color: #fff;padding-top: 83px;}
+#seven p{font-size: 20px;color: #fff;height: 42px;line-height: 42px;}
+#seven a{width:110px;height:44px;display: inline-block;background: #f0b452;font-size: 12px;line-height: 44px;color:#fff;margin-top:22px;}
+#seven a:hover{background: #000;transition: all 0.8s;}
+footer{background: #f2f3f8;}
+footer .inner{width:1154px;margin: 0 auto;padding:70px 0;}
+footer .inner .one{width:26%;float: left;}
+footer .inner .one .pic{font-size: 0;}
+footer .inner .one p{padding:32px 45px 0 0;line-height: 24px;font-size: 14px;color:#8c9192;}
+footer .inner .one ul{padding-top: 28px;}
+footer .inner .one li{text-align: center;margin-right: 13px;float: left;}
+footer .inner .one a{width:29px;height:29px;border: 1px solid #e0a549;border-radius: 50%;line-height: 29px;color:#e0a549;display:block}
+footer .inner .one a:hover{background: #e0a549;color: #fff;transition: all 1s;}
+footer .inner .two{width:26%;float: left;}
+footer .inner .two h3{height:21px;line-height: 21px;font-size: 14px;color:#474747;text-transform: uppercase;font-weight: normal;letter-spacing: 2px;}
+footer .inner .two .pic{padding:27px 10px  0 0;float: left;}
+footer .inner .two .pic img{width:75px;height:50px;}
+footer .inner .two p{line-height: 24px;padding-top: 22px;font-size: 14px;}
+footer .inner .two p a{color:#838383;}
+footer .inner .two p a:hover{color:#e0a549;}
+footer .inner .two time{height:33px;line-height: 33px;font-size: 12px;text-transform: uppercase;letter-spacing: 1px;color:#838383;}
+footer .inner .three{width:26%;float: left;}
+footer .inner .three h3{height:21px;line-height: 21px;font-size: 14px;color: #474747;text-transform: uppercase;font-weight: normal;letter-spacing: 2px;}
+footer .inner .three ul{padding-top: 29px;}
+footer .inner .three li{height: 14px;line-height: 14px;margin-bottom: 22px;}
+footer .inner .three a{display:inline-block;background: url(../images/right_07.jpg) no-repeat left;padding-left: 21px;font-size: 14px;color: #837e7f;transition: all 0.6s;}
+footer .inner .three a:hover{transform: translateX(10px);color:#e0a549;}
+footer .inner .four{width:22%;float: left;}
+footer .inner .four h3{height:21px;line-height: 21px;font-size: 14px;color: #474747;text-transform: uppercase;font-weight: normal;letter-spacing: 2px;}
+footer .inner .four ul{padding-top: 21px;}
+footer .inner .four li{height:70px;width:70px;padding: 0 15px 15px 0;float: left;font-size: 0;}
+footer .inner .four li:hover img{transform: scale(1.3);}
+footer .inner .four li img{width: 100%;height: 100%;transition: all 1s;}
+footer .inner .four li:nth-child(3n) {padding-right: 0;}
+#bot{text-align: center;height: 67px;line-height: 67px;padding-top: 3px;font-size: 14px;color:#939595;background: #fff;}
+#bot .back{position: fixed;right:20px;bottom: -27px;}
+
+
+
+
+

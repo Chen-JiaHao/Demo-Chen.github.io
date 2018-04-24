@@ -1,0 +1,40 @@
+@media screen and (max-width:1280px){
+    #one .long{width:600px;height: 100%}
+    #two{width:100%}#two .pic{height:100%}
+    #four .all .pic{height: 100%}
+    footer .inner .four ul{width:81%}
+    footer .inner{width:100%}
+    footer .inner .four li:nth-child(3n)
+    {padding-right: 15px;}
+}
+@media screen and (max-width:960px){
+    header nav{display: none;}
+    header .icon .first{display: block;}
+    #one .long{width:470px;}#one li{width: 50%;}
+    footer .inner .four ul{width:35%;}
+}
+@media screen and (max-width:768px){
+    #one .long{width:405px;}
+    #one li{width: 100%;}
+    #two ul{float:none;width:70%;margin: 0 auto;}
+    #two .pic{float: none;margin: 0 auto;width: 60%;}
+    #four .all .pic{width:47%;}#six li{width:48%;}
+    #seven p{height:84px;width:455px;margin: 0 auto;}
+    footer .inner .one{float: none;width: 508px;margin: 0 auto;padding-bottom: 60px;}
+    footer .inner .two{float: none;width: 508px;margin: 0 auto;padding-bottom: 60px;}
+    footer .inner .three{float: none;width: 508px;margin: 0 auto;padding-bottom: 60px;}
+    footer .inner .four{float: none;width: 508px;margin: 0 auto;}
+    footer .inner .four ul{width:100%;}
+}
+@media screen and (max-width:480px){
+    #one .long{width:280px;}
+    #one p{width:200px;line-height: 30px;margin: 0 auto;height: 100%;padding: 30px 0;}
+    #four .all .pic{width:96%;}
+    #six li{width:96%;height:250px;}
+    #seven p{height:126px;width:300px;margin: 0 auto;}
+    footer .inner .one{width: 352px;margin: 0 auto;}
+    footer .inner .two{width: 352px;margin: 0 auto;}
+    footer .inner .three{width: 352px;margin: 0 auto;}
+    footer .inner .four{width: 352px;margin: 0 auto;}
+    footer .inner .four ul{width:80%;}
+}
